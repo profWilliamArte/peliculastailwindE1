@@ -32,7 +32,7 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex items-center justify-between h-16">
                     <Link to="/" onClick={() => setActiveLink(0)} className="flex items-center gap-3 shrink-0">
-                        <img src="/logo.svg" alt="Arsistema" className="h-8 w-auto" />
+                        <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Arsistema" className="h-8 w-auto" />
                     </Link>
 
                     <div className="hidden lg:flex items-center gap-1">
